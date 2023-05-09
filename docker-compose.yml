@@ -1,0 +1,13 @@
+version: '3.6'
+services:
+  web:
+    image: 'polinux/gitlab-ce'
+    hostname: 'gitlab'
+    ports:
+      - '443:443'
+      - '1022:22'
+      - '80:80'
+    volumes:
+      - '/opt/config:/etc/gitlab'
+      - '/opt/logs:/var/log/gitlab'
+      - '/opt/data:/var/opt/gitlab'
