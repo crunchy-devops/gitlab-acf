@@ -14,8 +14,8 @@ Crtl-c  # exit
 ``` 
 ## Install docker Community-Edition
 ```shell script
-git clone  https://github.com/<votre_repo_perso>/k8s-cka.git
-cd k8s-cka/docker-ubuntu
+git clone  https://github.com/<votre_repo_perso>/gitlab-acf.git
+cd gitlab-acf/docker-ubuntu
 python3 -m venv venv  # set up the module venv in the directory venv
 source venv/bin/activate  # activate the virtualenv python
 pip install --upgrade pip
