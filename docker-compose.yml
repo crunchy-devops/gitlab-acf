@@ -5,8 +5,8 @@ services:
     hostname: 'gitlab'
     ports:
       - '443:443'
-      - '31022:22'
-      - '30080:80'
+      - '1022:22'
+      - '8080:80'
     volumes:
       - '/opt/config:/etc/gitlab'
       - '/opt/logs:/var/log/gitlab'
