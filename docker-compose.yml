@@ -3,6 +3,7 @@ services:
   web:
     image: 'polinux/gitlab-ce'
     hostname: 'gitlab'
+    restart: unless-stopped
     ports:
       - '443:443'
       - '1022:22'
